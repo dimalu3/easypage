@@ -80,3 +80,28 @@ h1, h2, h3, h4, h5, h6 {
   align-items: center;
   justify-content: center;
 }
+/* родитель */
+.block{
+
+text-align: center;
+}
+
+/* flex-контейнер */
+.block__row{
+
+border: 10px solid #ece89d;
+display: inline-flex;
+}
+
+/* flex-элемент */
+.block__element{
+
+border: 5px solid #5e5373;
+}
+
+/* контент */
+.block__content{
+
+background-color: #18b5a4;
+/* плюс прочие стили для текста, отступы */
+}
