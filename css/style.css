@@ -72,7 +72,7 @@ h1, h2, h3, h4, h5, h6 {
 /*--------------------*/
 
 .text{
-  font-size: 50px;
+  font-size: 500px;
   font-family: 'helvetica';
 }
 .container{
@@ -89,14 +89,14 @@ text-align: center;
 /* flex-контейнер */
 .block__row{
 
-border: 10px solid #ece89d;
+border: 100px solid #ece89d;
 display: inline-flex;
 }
 
 /* flex-элемент */
 .block__element{
 
-border: 5px solid #5e5373;
+border: 50px solid #5e5373;
 }
 
 /* контент */
@@ -104,4 +104,19 @@ border: 5px solid #5e5373;
 
 background-color: #18b5a4;
 /* плюс прочие стили для текста, отступы */
+}
+@media (max-width:1200px){
+	.container{
+	max-width: 970px;
+	}
+}
+@media (max-width:992px){
+	.container{
+	max-width: 750px;
+	}
+}
+@media (max-width:767px){
+	.container{
+	max-width: none;
+	}
 }
